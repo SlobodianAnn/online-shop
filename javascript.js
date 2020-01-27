@@ -10,7 +10,8 @@ var fullPhoto = document.querySelector('.carusel-image');
 
 var changeImageClickHandler = function (button, image){
     
-    button.addEventListener('click', function(){
+    button.addEventListener('click', function(evt){
+        evt.preventDefault();
         fullPhoto.src = image; 
     });
 };
