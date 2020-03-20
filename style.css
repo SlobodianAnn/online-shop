@@ -391,7 +391,7 @@ body{
     padding-left: 18px;
 }
 .side-menu{
-    width: 262px;
+    width: 212px;
     margin-top: 30px;
 }
 .side-menu-list{
@@ -405,9 +405,11 @@ body{
     font-size: 14px;
     font-weight: 600;
     line-height: 40px;
-    padding: 3px 15px;
+    padding: 0px 15px;
     border-bottom: 1px solid #eee;
     position: relative;
+    height: 37px;
+    box-sizing: border-box;
 }
 .side-menu-list > li:hover{
     color: #26acca;
@@ -415,8 +417,8 @@ body{
 .side-menu-list  i{
     position: absolute;
     font-size: 10px;
-    right: 25px;
-    top: 20px;
+    right: 10px;
+    top: 15px;
 }
 .header-side-menu {
     height: 55px;
@@ -450,7 +452,7 @@ body{
     position: absolute;
     top: 0;
     width: 655px;
-    left: 260px;
+    left: 215px;
 }
 .column {
     display: inline-block;
@@ -495,7 +497,7 @@ body{
     margin-top: 30px;
 }
 .slide-wrapper{
-    width: 695px;
+    width: 697px;
     height: 353px;
     position: relative;
 }
@@ -521,5 +523,122 @@ body{
     margin: 0 auto;
     width: 70px;
 }
-
-
+.promotion-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.promo-card{
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #e3e3e3;
+    height: 97px;
+}
+.promo-card-earpods{
+    width: 375px;
+}
+.promo-card-phone{
+    width: 288px;
+}
+.promo-img{
+    width: 100%;
+}
+.promo-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+.promo-text span {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+.promo-black{
+    color: #414141;
+}
+.hot-deals-container{
+    width: 211px;
+}
+.hot-deals-headline{
+    border-bottom: 3px solid #ed7987;
+    color: #111;
+    display: block;
+    font-size: 16px;
+    font-weight: 700
+}
+.hot-deals-card{
+    border: 1px solid #e3e3e3;
+}
+.hot-deals__time-container{
+    display: flex;
+}
+.time-cards {
+    width: 25%;
+    border-right: 1px solid #FABDC5;
+    background: #ed7987 none repeat scroll 0 0;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 0;
+    font-weight: bold;
+    height: 55px;
+    line-height: 25px;
+    padding-top: 3px;
+}
+.time-content {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    color: #fff;
+    text-transform: lowercase;
+    text-align: center;
+}
+.time-count{
+    font-size: 20px;
+}
+.hot-deals_product-name{
+    color: #444;
+    font-size: 14px;
+    font-weight: 600;
+}
+.rating {
+    color: #f9af51;
+    margin: 2px;
+}
+i.rating{
+    font-size: 14px;
+}
+.hot-deals_price {
+    color: #e95668;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 5px; 
+    margin-bottom: 0;
+}
+.hot-deals_price span {
+    color: #ccc;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+.hot-deals__buttons-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.hot-deals__buttons {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 100%;
+    box-shadow: 0 2px 4px -1px #555 inset;
+    height: 13px;
+    width: 13px;
+    margin: 5px;
+    display: block;
+}
+.hot-deals__butn-active{
+    box-shadow: 0 2px 7px -1px #555 inset;
+}
